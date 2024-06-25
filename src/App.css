@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Times New Roman", Times, serif, sans-serif;
+  font-weight: bold;
+}
+
+.container {
+  padding: 5px;
+  margin: 10px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  border-radius: 3px;
+  width: 355px;
+  height: 40%;
+  display: inline-block;
+}
+
+select,
+button {
+  margin-bottom: 10px;
+}
+
+.filter-input {
+  margin-right: 10px;
+}
+
+.option-block {
+  display: flex;
+  flex-direction: row;
+  padding: 10px 0;
+}
+
+.limit-block {
+  padding-right: 5px;
+}
+
+.pagination-block {
+  display: flex;
+  flex-direction: row;
+}
+
+.prev-btn {
+  margin-right: 5px;
+}
+
+.next-btn {
+  margin-left: 5px;
+}
+
+.loading {
+  display: none;
+}
+
+.error {
+  color: red;
+  display: none;
+}
